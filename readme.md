@@ -82,9 +82,9 @@ app.listen(3000, () => {
 
 ### Advanced parameters:
 
-- queue: Required, set your queue.
-- correlationId: Set correlation ID for receiver.
-- replyTo: Required, client to receive reply from provider.
-- contentType: "application/json" or "application/textplain", it used for format message, in any case it will do automatically.
-- responseType: "application/json" or "application/textplain", it used for format message, in any case it will do automatically.
-- connectionAdress: Connection adress, for example: amqp://localhost/
+- **queue**: *required.*, Set your queue.
+- **correlationId**: Set correlation ID for receiver.
+- **replyTo**: *required.* Client to receive reply from provider.
+- **contentType**: "*application/json*" or "*application/textplain*", it used for format message, in any case it will do automatically.
+- **responseType**: "application/json" or "application/textplain", it used for format message, in any case it will do automatically.
+- **connectionAdress**: Connection adress, for example: ```amqp://localhost/```
